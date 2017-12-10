@@ -28,7 +28,10 @@ class BurgerBuilder extends Component {
         axios.get('https://react-burger-86971.firebaseio.com/ingredients.json')
             .then(response => {
                 this.setState({ingredients: response.data})
-            });
+            })
+            .catch(error => {
+                this.setState({error: true})
+            })
     }
 
     state = {
@@ -36,7 +39,8 @@ class BurgerBuilder extends Component {
         totalPrice: 4,
         purchaseable: false,
         purchasing: false,
-        loading: false
+        loading: false,
+        error: false
     }
 
     updatePurchaseState = (ingredients) => {
@@ -124,7 +128,7 @@ class BurgerBuilder extends Component {
         }
 
         let orderSummary = null;
-        let burger = <Spinner/>;
+        let burger = this.state.error ? <p> Ingredients couldn't fetch from backend </p> : <Spinner/>;
 
         if(this.state.ingredients){
 

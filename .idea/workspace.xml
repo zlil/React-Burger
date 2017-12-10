@@ -4,6 +4,7 @@
     <list default="true" id="09d022b1-2c05-4b40-9aef-10dba37e2d73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js" afterPath="$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,26 +28,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BurgerBuilder.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BurgerBuilder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="125" column="32" lean-forward="false" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+            <state relative-caret-position="477">
+              <caret line="152" column="9" lean-forward="true" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#1177#1416#0" expanded="false" />
-                <element signature="e#1455#1985#0" expanded="false" />
-                <element signature="e#2027#2614#0" expanded="false" />
+                <element signature="e#1288#1527#0" expanded="false" />
+                <element signature="e#1566#2096#0" expanded="false" />
+                <element signature="e#2138#2725#0" expanded="false" />
+                <element signature="e#2929#3653#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="withErrorHandler.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="withErrorHandler.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="312">
+              <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -196,8 +198,8 @@
         <option value="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.css" />
         <option value="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.js" />
-        <option value="$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js" />
         <option value="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
+        <option value="$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js" />
       </list>
     </option>
   </component>
@@ -445,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512944862265</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="* get ingredients from backend">
+      <created>1512945671352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512945671352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34998000" />
+    <option name="totallyTimeSpent" value="35878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -518,7 +527,8 @@
     <MESSAGE value="* create navigation side bar" />
     <MESSAGE value="* structure changes" />
     <MESSAGE value="* firebase integration&#10;* handling errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="* firebase integration&#10;* handling errors" />
+    <MESSAGE value="* get ingredients from backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="* get ingredients from backend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -925,16 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/axios-orders.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -945,13 +945,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="125" column="32" lean-forward="false" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+        <state relative-caret-position="477">
+          <caret line="152" column="9" lean-forward="true" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#1177#1416#0" expanded="false" />
-            <element signature="e#1455#1985#0" expanded="false" />
-            <element signature="e#2027#2614#0" expanded="false" />
+            <element signature="e#1288#1527#0" expanded="false" />
+            <element signature="e#1566#2096#0" expanded="false" />
+            <element signature="e#2138#2725#0" expanded="false" />
+            <element signature="e#2929#3653#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
